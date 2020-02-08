@@ -75,12 +75,16 @@ body {
       stroke-width: .5; }
       .container .svg .land:hover {
         cursor: pointer;
-        fill: #056158; }
+        fill: #056158;
+        stroke-width: 2;
+        opacity: 0.5}
     .container .svg .colorFill {
       fill: #051e61; }
       .container .svg .colorFill:hover {
         cursor: pointer;
-        fill: #051e61; }
+        fill: #00d5e0;
+        stroke-width: 2;
+        opacity: 0.5}
   .container .information {
     position: absolute;
     transition: 1s;
