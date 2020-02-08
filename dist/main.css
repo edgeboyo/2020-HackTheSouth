@@ -8,14 +8,24 @@ video,
 canvas {
   max-width: 100%; }
 
+<<<<<<< HEAD
 body {
   background: #706d73; }
+=======
+body { /*BACKGROUND COLOUR*/
+  background: #FFFFFF; }
+>>>>>>> refs/remotes/origin/master
 
 .container {
   position: relative;
   width: 100%;
   max-width: 1500px;
+<<<<<<< HEAD
   background: #706d73;
+=======
+  /*OCEAN COLOUR*/
+  background: #FFFFFF;
+>>>>>>> refs/remotes/origin/master
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -45,10 +55,17 @@ body {
       position: absolute;
       top: 0;
       left: 0; }
+<<<<<<< HEAD
     .container .form .button {
       width: 100%;
       transition: 300ms;
       background: #954535;
+=======
+    .container .form .button { /* boxes colour*/
+      width: 100%;
+      transition: 300ms;
+      /*background: #954535;*/
+>>>>>>> refs/remotes/origin/master
       border: 1px solid #961c05;
       margin-top: .5em;
       padding: .5em;
@@ -66,6 +83,7 @@ body {
     justify-content: center;
     width: 1009px;
     height: 665px; }
+<<<<<<< HEAD
     .container .svg .land {
       transition: 300ms;
       fill: #05610d;
@@ -85,6 +103,24 @@ body {
         fill: #00d5e0;
         stroke-width: 2;
         opacity: 0.5}
+=======
+    .container .svg .land { /*countries colours*/
+      transition: 300ms;
+      /*fill: #954535;*/
+      fill-opacity: 1;
+      stroke: #0d002c;
+      stroke-opacity: 1;
+      stroke-width: .5; }
+      .container .svg .land:hover {
+        /*Colour when hovering*/
+        cursor: pointer;
+        fill: #FF0000; }
+    .container .svg .colorFill {
+      fill: #961c05; }
+      .container .svg .colorFill:hover {
+        cursor: pointer;
+        fill: #961c05; }
+>>>>>>> refs/remotes/origin/master
   .container .information {
     position: absolute;
     transition: 1s;
@@ -108,7 +144,11 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
+<<<<<<< HEAD
       background-color: #961c05;
+=======
+      /*background-color: #0000FF;*/
+>>>>>>> refs/remotes/origin/master
       right: -50px; }
     .container .information th,
     .container .information td {
