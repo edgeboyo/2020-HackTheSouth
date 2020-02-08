@@ -59,6 +59,7 @@ class Map extends React.Component{
         paths.forEach( path => {
             path.setAttribute('id', path.getAttribute('id').toLowerCase());
             path.setAttribute('title', path.getAttribute('title').toLowerCase());
+	    path.setAttribute('onclick', "showPopup(event);");
         })
 
         if (this.state.id){

@@ -22614,6 +22614,7 @@ var Map = function (_React$Component) {
       paths.forEach(function (path) {
         path.setAttribute('id', path.getAttribute('id').toLowerCase());
         path.setAttribute('title', path.getAttribute('title').toLowerCase());
+        path.setAttribute('onclick', "showPopup(event);");
       });
 
       if (this.state.id) {
@@ -23618,108 +23619,33 @@ var Information = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
+      function clickHandler(e) {
+        e.preventDefault();
+        console.log("WAS CLICKED");
+        document.getElementById("popup").style.display = "none";
+      }
 
       return _react2.default.createElement(
-        'table',
-        { className: 'information' },
+        'aside',
+        { id: 'popup' },
         _react2.default.createElement(
-          'thead',
-          null,
+          'div',
+          { className: 'popup-inner' },
           _react2.default.createElement(
-            'tr',
-            null,
-            _react2.default.createElement(
-              'th',
-              { colSpan: 4 },
-              this.state.name
-            ),
-            _react2.default.createElement(
-              'th',
-              { colSpan: 3 },
-              _react2.default.createElement('img', { className: 'flag', src: this.state.flag })
-            )
-          )
-        ),
-        _react2.default.createElement(
-          'tbody',
-          null,
-          _react2.default.createElement(
-            'tr',
-            null,
-            _react2.default.createElement(
-              'th',
-              null,
-              'Capital'
-            ),
-            _react2.default.createElement(
-              'th',
-              null,
-              'Official language'
-            ),
-            _react2.default.createElement(
-              'th',
-              null,
-              'Population'
-            ),
-            _react2.default.createElement(
-              'th',
-              null,
-              'Currency'
-            ),
-            _react2.default.createElement(
-              'th',
-              null,
-              'Region'
-            ),
-            _react2.default.createElement(
-              'th',
-              null,
-              'Subregion'
-            ),
-            _react2.default.createElement(
-              'th',
-              null,
-              'Borders'
-            )
+            'a',
+            { href: '', className: 'close', onClick: clickHandler },
+            'lolxd'
           ),
           _react2.default.createElement(
-            'tr',
+            'h3',
             null,
-            _react2.default.createElement(
-              'td',
-              null,
-              this.state.capital
-            ),
-            _react2.default.createElement(
-              'td',
-              null,
-              this.state.language
-            ),
-            _react2.default.createElement(
-              'td',
-              null,
-              this.state.population
-            ),
-            _react2.default.createElement(
-              'td',
-              null,
-              this.state.currencies
-            ),
-            _react2.default.createElement(
-              'td',
-              null,
-              this.state.region
-            ),
-            _react2.default.createElement(
-              'td',
-              null,
-              this.state.subregion
-            ),
-            _react2.default.createElement(
-              'td',
-              null,
-              this.state.borders
-            )
+            'Pobierz Informator'
+          ),
+          _react2.default.createElement(
+            'form',
+            { name: 'pobranie', id: 'form-popup' },
+            _react2.default.createElement('input', { type: 'email', placeholder: 'Adres email', name: 'email', id: 'popup-email' }),
+            _react2.default.createElement('input', { id: 'przycisk-pobierz', type: 'submit', value: 'POBIERZ', onClick: '' })
           )
         )
       );

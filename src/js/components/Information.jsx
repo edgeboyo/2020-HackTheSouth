@@ -60,37 +60,29 @@ class Information extends React.Component{
     });
   }
 
-
   render(){
+      function clickHandler(e){
+        e.preventDefault();
+	console.log("WAS CLICKED");
+        document.getElementById("popup").style.display = "none";
+     }
 
-      return <table className='information'>
-                    <thead>
-                        <tr>
-                            <th colSpan={4}>{this.state.name}</th>
-                            <th colSpan={3}><img className='flag' src={this.state.flag} /></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>Capital</th>
-                            <th>Official language</th>
-                            <th>Population</th>
-                            <th>Currency</th>
-                            <th>Region</th>
-                            <th>Subregion</th>
-                            <th>Borders</th>
-                        </tr>
-                        <tr>
-                            <td>{this.state.capital}</td>
-                            <td>{this.state.language}</td>
-                            <td>{this.state.population}</td>
-                            <td>{this.state.currencies}</td>
-                            <td>{this.state.region}</td>
-                            <td>{this.state.subregion}</td>
-                            <td>{this.state.borders}</td>
-                        </tr>
-                    </tbody>
-                </table>
+      return <aside id="popup">
+        <div className="popup-inner">
+            <a href="" className="close" onClick={clickHandler}>
+                lolxd
+            </a>
+            <h3>Pobierz Informator</h3>
+		  
+           
+
+            <form name="pobranie" id="form-popup">
+                <input type="email" placeholder="Adres email" name="email" id="popup-email"/>
+                <input id="przycisk-pobierz" type="submit" value="POBIERZ" onClick=""/>
+            </form> 
+
+        	</div>    
+    	</aside>
   }
 
 }

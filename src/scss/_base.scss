@@ -71,16 +71,15 @@ body {
     transition: 2s;
     display: flex;
     justify-content: center;
-    width: 1009px;
-    height: 665px;
+    width: 1088px;
+    height: 677px;
     .land{
       transition: 300ms;
+      stroke: 1px solid #FFF;
       fill: $land-color;
 			fill-opacity: 1;
-			stroke: $bg-color;
-			stroke-opacity: 1;
-			stroke-width: .5;
       &:hover {
+	border: 2px solid #FFF;
         cursor: pointer;
         fill: $land-color-hover;
 
@@ -168,3 +167,92 @@ body {
 
 
 }
+
+/* Tutaj dodajemy style POPUPa */
+
+
+.popup-inner {
+    position: absolute;
+    top: 100px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+
+
+
+
+/* Kombinacja klawiszy (Shift + Alt + A) - Dodaje/Usuwa komentarz (blokowy) */
+
+
+
+
+
+
+
+#popup {
+    display: block;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+#popup .popup-inner {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#popup .popup-inner img {
+    height: 200px;
+}
+
+#popup .popup-inner form input[type="email"] {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ff7900;
+    padding: 5px;
+    width: 300px;
+
+}
+
+#popup .popup-inner form input[type="submit"], #pobierz-informator {
+    display: block;
+    margin: auto;
+    border: 1px solid #ff7900;
+    border-radius: 300px;
+    text-transform: uppercase;
+    background: #ff7900;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: 'Open Sans','Helvetica Neue', Arial,sans-serif;
+    font-weight: 700;
+
+}
+
+#popup .popup-inner form input[type="submit"]:hover, #pobierz-informator:hover {
+    background: #f5a659;
+    border: 1px solid #f5a659;
+}
+
+#pobierz-informator {
+    color: #fff;
+    text-decoration: none;
+    display: none;
+    width: 55%;
+}
+
+#pobierz-informator:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
