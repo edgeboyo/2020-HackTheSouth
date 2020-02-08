@@ -14,7 +14,7 @@ body {
 .container {
   position: relative;
   width: 100%;
-  max-width: 1500px;
+  /*max-width: 1500px;*/
   background: #706d73;
   display: flex;
   align-items: center;
@@ -35,11 +35,11 @@ body {
       color: black;
       border: none; }
       .container .form .findCountry:focus {
-        box-shadow: 0 0 5px 1px #aa341d; }
+        box-shadow: 0 0 5px 1px #961c05; }
     .container .form .error::after {
       content: 'Country not found :( ';
       color: #961c05;
-      border: 1px solid #961c05;
+      border: 1px solid #051e61;
       width: 100%;
       padding: .3em;
       position: absolute;
@@ -48,17 +48,17 @@ body {
     .container .form .button {
       width: 100%;
       transition: 300ms;
-      background: #954535;
-      border: 1px solid #961c05;
+      background: #05610d;
+      border: 1px solid #051e61;
       margin-top: .5em;
       padding: .5em;
       outline: none; }
       .container .form .button:hover {
         cursor: pointer;
-        background: #aa341d; }
+        background: #00d4df; }
       .container .form .button:focus {
-        background: #aa341d;
-        box-shadow: 0 0 1px 1px #961c05; }
+        background: #00d4df;
+        box-shadow: 0 0 1px 1px #051e61; }
   .container .svg {
     margin: 1em 0;
     transition: 2s;
@@ -70,21 +70,17 @@ body {
       transition: 300ms;
       fill: #05610d;
       fill-opacity: 1;
-      stroke: #ffffff;
+      stroke: #706d73;
       stroke-opacity: 1;
       stroke-width: .5; }
       .container .svg .land:hover {
         cursor: pointer;
-        fill: #056158;
-        stroke-width: 2;
-        opacity: 0.5}
+        fill: #00d4df; }
     .container .svg .colorFill {
       fill: #051e61; }
       .container .svg .colorFill:hover {
         cursor: pointer;
-        fill: #00d5e0;
-        stroke-width: 2;
-        opacity: 0.5}
+        fill: #051e61; }
   .container .information {
     position: absolute;
     transition: 1s;
@@ -92,10 +88,10 @@ body {
     visibility: hidden;
     top: 50%;
     width: 90%;
-    border: 1px solid #0d002c;
+    border: 1px solid #706d73;
     border-collapse: collapse;
     margin-bottom: 1em;
-    background-color: #954535; }
+    background-color: #05610d; }
     .container .information:hover {
       transform: translate(100%, 0);
       visibility: visible; }
@@ -108,28 +104,30 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #961c05;
+      background-color: #051e61;
       right: -50px; }
     .container .information th,
     .container .information td {
       text-align: center;
-      color: #0d002c;
+      color: #706d73;
       width: 50px;
       height: 50px;
-      border: 1px solid #0d002c;
+      border: 1px solid #706d73;
       padding: .5em;
       font-size: 1.2em; }
       .container .information th .flag,
       .container .information td .flag {
         height: 300%;
-        border: 1px solid #0d002c; }
+        border: 1px solid #706d73; }
     .container .information td:hover {
-      background-color: #961c05; }
+      background-color: #051e61; }
     .container .information thead {
-      background-color: #961c05; }
+      background-color: #051e61; }
       .container .information thead th {
         border: none;
         font-size: 2em; }
     .container .information tbody th {
-      background-color: #aa341d;
+      background-color: #00d4df;
       font-size: 1.5em; }
+
+/*# sourceMappingURL=main.css.map */
