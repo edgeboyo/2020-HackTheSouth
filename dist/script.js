@@ -23584,9 +23584,53 @@ var Information = function (_React$Component) {
           currencies: data.currencies[0].name,
           population: data.population
         });
+        _this.pullReq(data.name);
       }).catch(function (error) {
         console.log(error);
       });
+    };
+
+    _this.pullReq = function (name) {
+      var url = "http://world-website.tk/pull.php?query=SELECT+*+FROM+databox+WHERE+`FIELD1`+LIKE+\"" + name + "\"";
+      console.log(url);
+      fetch(url).then(function (res) {
+        return res.text();
+      }).then(function (txt) {
+        var str = "";
+
+        var spl = txt.split(",");
+
+        if (spl[1].length != 0) {
+          var inc = "<img src=\"";
+          if (spl[1].localeCompare("Visa Free") == 0) {
+            inc += "Good.png";
+          }
+          if (spl[1].localeCompare("Required") == 0 || spl[1].localeCompare("Visa Required") == 0) {
+            inc += "Bad.png";
+          }
+          if (spl[1].localeCompare("Visa Upon arrival") == 0) {
+            inc += "Neutral.png";
+          }
+          inc += "\"/>";
+          str += "Visa Requirement: " + spl[1] + " " + inc + "<br>";
+        }
+
+        if (spl[2].length != 0) {
+          str += "World Risk Index: " + spl[2] + "<br>";
+        }
+        if (spl[3].length != 0) {
+          str += "Crime Risk Index: " + spl[3] + "<br>";
+        }
+        if (spl[4].length != 0) {
+          str += "Safety Risk Index: " + spl[4] + "<br>";
+        }
+        if (spl[5].length != 0) {
+          str += "GDP-PPP($): " + spl[5] + "<br>";
+        }
+
+        _this.setState({ retVal: str });
+      });
+      console.log(_this.state.retVal);
     };
 
     _this.state = (_this$state = {
@@ -23594,7 +23638,7 @@ var Information = function (_React$Component) {
       capital: '',
       flag: '',
       id: ''
-    }, _defineProperty(_this$state, 'capital', ''), _defineProperty(_this$state, 'region', ''), _defineProperty(_this$state, 'subregion', ''), _defineProperty(_this$state, 'borders', ''), _defineProperty(_this$state, 'language', ''), _defineProperty(_this$state, 'currencies', ''), _defineProperty(_this$state, 'population', ''), _defineProperty(_this$state, 'clickout', false), _this$state);
+    }, _defineProperty(_this$state, 'capital', ''), _defineProperty(_this$state, 'region', ''), _defineProperty(_this$state, 'subregion', ''), _defineProperty(_this$state, 'borders', ''), _defineProperty(_this$state, 'language', ''), _defineProperty(_this$state, 'currencies', ''), _defineProperty(_this$state, 'population', ''), _defineProperty(_this$state, 'clickout', false), _defineProperty(_this$state, 'retVal', ''), _defineProperty(_this$state, 'gotten', false), _this$state);
 
     return _this;
   }
@@ -23612,6 +23656,11 @@ var Information = function (_React$Component) {
       }
     }
   }, {
+    key: 'createMarkup',
+    value: function createMarkup() {
+      return { __html: this.state.retVal };
+    }
+  }, {
     key: 'render',
     value: function render() {
       function clickHandler(e) {
@@ -23626,13 +23675,6 @@ var Information = function (_React$Component) {
         e.naiveEvent.stopImmediatePropagation();
       }
 
-      function pullReq() {
-        var url = "http://world-website.tk/pull.php?query=SELECT+*+FROM+visas";
-
-        fetch(url).then(function (res) {
-          return console.log(res);
-        });
-      }
       return _react2.default.createElement(
         'aside',
         { id: 'popup', onClick: clickHandler },
@@ -23657,11 +23699,7 @@ var Information = function (_React$Component) {
           _react2.default.createElement(
             'div',
             { className: 'clearfix' },
-            _react2.default.createElement(
-              'div',
-              { className: 'f-left' },
-              pullReq()
-            )
+            _react2.default.createElement('div', { className: 'f-left', dangerouslySetInnerHTML: this.createMarkup() })
           )
         )
       );

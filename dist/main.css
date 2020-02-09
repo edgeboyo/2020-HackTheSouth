@@ -9,6 +9,7 @@ canvas {
   max-width: 100%; }
 
 body {
+  font-family: serif;
   background: #96d4e3; }
 
 .container {
@@ -229,7 +230,8 @@ body {
   text-align: center; }
 
 .f-left {
-  float: left; }
+  float: left;
+  text-align: left; }
 
 .f-right {
   float: right; }
@@ -239,3 +241,12 @@ body {
 
 .popup-inner div {
   padding-top: 10px; }
+
+#popup .clearfix div img {
+  width: 13%;
+  height: auto;
+  /* float: right; */
+  vertical-align: middle; }
+
+h1 {
+  font-family: "Lucida Console"; }

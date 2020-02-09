@@ -1,4 +1,5 @@
 body {
+  font-family: serif;
   background: $bg-color;
 }
 
@@ -301,6 +302,7 @@ body {
 
 .f-left {
 	float: left;
+	text-align: left;
 }
 
 .f-right {
@@ -313,4 +315,15 @@ body {
 
 .popup-inner div {
 	padding-top: 10px;
+}
+
+#popup .clearfix div img {
+	width: 13%;
+	height: auto;
+	/* float: right; */
+	vertical-align: middle;
+}
+
+h1 {
+	font-family: "Lucida Console";
 }
