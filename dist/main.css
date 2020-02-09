@@ -9,13 +9,13 @@ canvas {
   max-width: 100%; }
 
 body {
-  background: #706d73; }
+  background: #96d4e3; }
 
 .container {
   position: relative;
   width: 100%;
   /*max-width: 1500px;*/
-  background: #706d73;
+  background: #96d4e3;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -39,7 +39,7 @@ body {
     .container .form .error::after {
       content: 'Country not found :( ';
       color: #961c05;
-      border: 1px solid #051e61;
+      border: 1px solid #ff8000;
       width: 100%;
       padding: .3em;
       position: absolute;
@@ -48,17 +48,18 @@ body {
     .container .form .button {
       width: 100%;
       transition: 300ms;
-      background: #05610d;
-      border: 1px solid #051e61;
+      background: #e8d49e;
+      border: 1px solid #ff8000;
       margin-top: .5em;
       padding: .5em;
       outline: none; }
       .container .form .button:hover {
         cursor: pointer;
-        background: #00d4df; }
+        background: #ff8000;
+        opacity: 0.6; }
       .container .form .button:focus {
-        background: #00d4df;
-        box-shadow: 0 0 1px 1px #051e61; }
+        background: #ff8000;
+        box-shadow: 0 0 1px 1px #ff8000; }
   .container .svg {
     margin: 1em 0;
     transition: 2s;
@@ -68,18 +69,23 @@ body {
     height: 677px; }
     .container .svg .land {
       transition: 300ms;
-      stroke: 1px solid #FFF;
-      fill: #05610d;
+      stroke: #000;
+      stroke-width: .5;
+      fill: #e8d49e;
       fill-opacity: 1; }
       .container .svg .land:hover {
-        border: 2px solid #FFF;
+        stroke: #000;
+        stroke-width: 2px;
+        opacity: 0.6;
         cursor: pointer;
-        fill: #00d4df; }
+        fill: #ff8000; }
     .container .svg .colorFill {
-      fill: #051e61; }
+      fill: #ff8000;
+      opacity: 0.8; }
       .container .svg .colorFill:hover {
         cursor: pointer;
-        fill: #051e61; }
+        opacity: 0.6;
+        fill: #ff8000; }
   .container .information {
     position: absolute;
     transition: 1s;
@@ -87,10 +93,10 @@ body {
     visibility: hidden;
     top: 50%;
     width: 90%;
-    border: 1px solid #706d73;
+    border: 1px solid #96d4e3;
     border-collapse: collapse;
     margin-bottom: 1em;
-    background-color: #05610d; }
+    background-color: #e8d49e; }
     .container .information:hover {
       transform: translate(100%, 0);
       visibility: visible; }
@@ -103,30 +109,30 @@ body {
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: #051e61;
+      background-color: #ff8000;
       right: -50px; }
     .container .information th,
     .container .information td {
       text-align: center;
-      color: #706d73;
+      color: #96d4e3;
       width: 50px;
       height: 50px;
-      border: 1px solid #706d73;
+      border: 1px solid #96d4e3;
       padding: .5em;
       font-size: 1.2em; }
       .container .information th .flag,
       .container .information td .flag {
         height: 300%;
-        border: 1px solid #706d73; }
+        border: 1px solid #96d4e3; }
     .container .information td:hover {
-      background-color: #051e61; }
+      background-color: #ff8000; }
     .container .information thead {
-      background-color: #051e61; }
+      background-color: #ff8000; }
       .container .information thead th {
         border: none;
         font-size: 2em; }
     .container .information tbody th {
-      background-color: #00d4df;
+      background-color: #ff8000;
       font-size: 1.5em; }
 
 /* Tutaj dodajemy style POPUPa */

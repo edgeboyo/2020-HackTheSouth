@@ -58,6 +58,7 @@ body {
       &:hover {
         cursor: pointer;
         background: $land-color-hover;
+	opacity: 0.6;
       }
 
       &:focus {
@@ -75,11 +76,15 @@ body {
     height: 677px;
     .land{
       transition: 300ms;
-      stroke: 1px solid #FFF;
+      stroke: #000;
+      stroke-width: .5;
       fill: $land-color;
-			fill-opacity: 1;
+      fill-opacity: 1;
       &:hover {
-	border: 2px solid #FFF;
+	stroke: #000;
+	stroke-width: 2px;
+
+	opacity: 0.6;
         cursor: pointer;
         fill: $land-color-hover;
 
@@ -88,9 +93,11 @@ body {
 
     .colorFill {
       fill: $land-color-active;
+      opacity: 0.8;
 
       &:hover {
         cursor: pointer;
+	opacity: 0.6;
         fill: $land-color-active;
       }
     }
