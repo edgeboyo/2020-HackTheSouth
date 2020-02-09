@@ -18,21 +18,25 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1581197773,,"wq"
+|2,0,1581212937,,"wq"
 :w
-|2,0,1581197701,,"w"
+|2,0,1581212783,,"w"
+:q!
+|2,0,1581212509,,"q!"
+:U
+|2,0,1581212501,,"U"
+:q
+|2,0,1581212250,,"q"
+:W
+|2,0,1581212142,,"W"
+:Q
+|2,0,1581212005,,"Q"
 :u
 |2,0,1581197218,,"u"
-:q
-|2,0,1581196053,,"q"
 :Wq
 |2,0,1581194388,,"Wq"
-:Q
-|2,0,1581194259,,"Q"
 :ew
 |2,0,1581188787,,"ew"
-:W
-|2,0,1581186354,,"W"
 
 # Search String History (newest to oldest):
 ?/popup
@@ -76,255 +80,285 @@ $
 |<"                            <td>{this.state.population}</td>","                            <td>{this.state.currencies}</td>","              "
 
 # File marks:
-'0  90  24  ~/src/js/components/Information.jsx
-|4,48,90,24,1581197773,"~/src/js/components/Information.jsx"
-'1  87  4  ~/src/scss/_base.scss
-|4,49,87,4,1581197703,"~/src/scss/_base.scss"
-'2  74  16  ~/src/scss/_base.scss
-|4,50,74,16,1581197229,"~/src/scss/_base.scss"
-'3  74  16  ~/src/scss/_base.scss
-|4,51,74,16,1581197229,"~/src/scss/_base.scss"
-'4  75  15  ~/src/scss/_base.scss
-|4,52,75,15,1581197163,"~/src/scss/_base.scss"
-'5  75  15  ~/src/scss/_base.scss
-|4,53,75,15,1581197163,"~/src/scss/_base.scss"
-'6  75  15  ~/src/scss/_base.scss
-|4,54,75,15,1581197163,"~/src/scss/_base.scss"
-'7  75  15  ~/src/scss/_base.scss
-|4,55,75,15,1581197163,"~/src/scss/_base.scss"
-'8  80  18  ~/src/scss/_base.scss
-|4,56,80,18,1581196962,"~/src/scss/_base.scss"
-'9  80  18  ~/src/scss/_base.scss
-|4,57,80,18,1581196962,"~/src/scss/_base.scss"
+'0  103  28  ~/src/js/components/Map.jsx
+|4,48,103,28,1581212937,"~/src/js/components/Map.jsx"
+'1  75  41  ~/src/js/components/Information.jsx
+|4,49,75,41,1581212758,"~/src/js/components/Information.jsx"
+'2  72  2  ~/src/js/components/Map.jsx
+|4,50,72,2,1581212509,"~/src/js/components/Map.jsx"
+'3  72  2  ~/src/js/components/Map.jsx
+|4,51,72,2,1581212509,"~/src/js/components/Map.jsx"
+'4  67  42  ~/src/js/components/Information.jsx
+|4,52,67,42,1581212250,"~/src/js/components/Information.jsx"
+'5  68  14  ~/src/js/components/Information.jsx
+|4,53,68,14,1581212250,"~/src/js/components/Information.jsx"
+'6  68  75  ~/src/js/components/Information.jsx
+|4,54,68,75,1581212105,"~/src/js/components/Information.jsx"
+'7  68  75  ~/src/js/components/Information.jsx
+|4,55,68,75,1581212105,"~/src/js/components/Information.jsx"
+'8  70  11  ~/src/js/components/Information.jsx
+|4,56,70,11,1581212105,"~/src/js/components/Information.jsx"
+'9  70  11  ~/src/js/components/Information.jsx
+|4,57,70,11,1581212105,"~/src/js/components/Information.jsx"
 
 # Jumplist (newest first):
--'  90  24  ~/src/js/components/Information.jsx
-|4,39,90,24,1581197773,"~/src/js/components/Information.jsx"
--'  64  24  ~/src/js/components/Information.jsx
-|4,39,64,24,1581197709,"~/src/js/components/Information.jsx"
--'  87  4  ~/src/scss/_base.scss
-|4,39,87,4,1581197703,"~/src/scss/_base.scss"
--'  87  4  ~/src/scss/_base.scss
-|4,39,87,4,1581197703,"~/src/scss/_base.scss"
--'  74  16  ~/src/scss/_base.scss
-|4,39,74,16,1581197242,"~/src/scss/_base.scss"
--'  74  16  ~/src/scss/_base.scss
-|4,39,74,16,1581197242,"~/src/scss/_base.scss"
--'  74  16  ~/src/scss/_base.scss
-|4,39,74,16,1581197229,"~/src/scss/_base.scss"
--'  74  16  ~/src/scss/_base.scss
-|4,39,74,16,1581197229,"~/src/scss/_base.scss"
--'  75  15  ~/src/scss/_base.scss
-|4,39,75,15,1581197213,"~/src/scss/_base.scss"
--'  75  15  ~/src/scss/_base.scss
-|4,39,75,15,1581197213,"~/src/scss/_base.scss"
--'  75  15  ~/src/scss/_base.scss
-|4,39,75,15,1581197213,"~/src/scss/_base.scss"
--'  75  15  ~/src/scss/_base.scss
-|4,39,75,15,1581197213,"~/src/scss/_base.scss"
--'  75  15  ~/src/scss/_base.scss
-|4,39,75,15,1581197163,"~/src/scss/_base.scss"
--'  75  15  ~/src/scss/_base.scss
-|4,39,75,15,1581197163,"~/src/scss/_base.scss"
--'  80  18  ~/src/scss/_base.scss
-|4,39,80,18,1581197114,"~/src/scss/_base.scss"
--'  80  18  ~/src/scss/_base.scss
-|4,39,80,18,1581197114,"~/src/scss/_base.scss"
--'  80  18  ~/src/scss/_base.scss
-|4,39,80,18,1581197114,"~/src/scss/_base.scss"
--'  80  18  ~/src/scss/_base.scss
-|4,39,80,18,1581197114,"~/src/scss/_base.scss"
--'  80  18  ~/src/scss/_base.scss
-|4,39,80,18,1581197114,"~/src/scss/_base.scss"
--'  80  18  ~/src/scss/_base.scss
-|4,39,80,18,1581197114,"~/src/scss/_base.scss"
--'  80  18  ~/src/scss/_base.scss
-|4,39,80,18,1581196962,"~/src/scss/_base.scss"
--'  80  18  ~/src/scss/_base.scss
-|4,39,80,18,1581196962,"~/src/scss/_base.scss"
--'  78  29  ~/src/scss/_base.scss
-|4,39,78,29,1581196895,"~/src/scss/_base.scss"
--'  78  29  ~/src/scss/_base.scss
-|4,39,78,29,1581196895,"~/src/scss/_base.scss"
--'  78  29  ~/src/scss/_base.scss
-|4,39,78,29,1581196895,"~/src/scss/_base.scss"
--'  78  29  ~/src/scss/_base.scss
-|4,39,78,29,1581196895,"~/src/scss/_base.scss"
--'  78  29  ~/src/scss/_base.scss
-|4,39,78,29,1581196895,"~/src/scss/_base.scss"
--'  78  29  ~/src/scss/_base.scss
-|4,39,78,29,1581196895,"~/src/scss/_base.scss"
--'  78  29  ~/src/scss/_base.scss
-|4,39,78,29,1581196895,"~/src/scss/_base.scss"
--'  78  29  ~/src/scss/_base.scss
-|4,39,78,29,1581196895,"~/src/scss/_base.scss"
--'  78  29  ~/src/scss/_base.scss
-|4,39,78,29,1581196883,"~/src/scss/_base.scss"
--'  78  29  ~/src/scss/_base.scss
-|4,39,78,29,1581196883,"~/src/scss/_base.scss"
--'  82  23  ~/src/scss/_base.scss
-|4,39,82,23,1581196641,"~/src/scss/_base.scss"
--'  85  23  ~/src/scss/_base.scss
-|4,39,85,23,1581196641,"~/src/scss/_base.scss"
--'  82  23  ~/src/scss/_base.scss
-|4,39,82,23,1581196641,"~/src/scss/_base.scss"
--'  85  23  ~/src/scss/_base.scss
-|4,39,85,23,1581196641,"~/src/scss/_base.scss"
--'  82  23  ~/src/scss/_base.scss
-|4,39,82,23,1581196641,"~/src/scss/_base.scss"
--'  85  23  ~/src/scss/_base.scss
-|4,39,85,23,1581196641,"~/src/scss/_base.scss"
--'  82  23  ~/src/scss/_base.scss
-|4,39,82,23,1581196641,"~/src/scss/_base.scss"
--'  85  23  ~/src/scss/_base.scss
-|4,39,85,23,1581196641,"~/src/scss/_base.scss"
--'  82  23  ~/src/scss/_base.scss
-|4,39,82,23,1581196641,"~/src/scss/_base.scss"
--'  85  23  ~/src/scss/_base.scss
-|4,39,85,23,1581196641,"~/src/scss/_base.scss"
--'  82  23  ~/src/scss/_base.scss
-|4,39,82,23,1581196641,"~/src/scss/_base.scss"
--'  85  23  ~/src/scss/_base.scss
-|4,39,85,23,1581196641,"~/src/scss/_base.scss"
--'  82  23  ~/src/scss/_base.scss
-|4,39,82,23,1581196641,"~/src/scss/_base.scss"
--'  85  23  ~/src/scss/_base.scss
-|4,39,85,23,1581196641,"~/src/scss/_base.scss"
--'  82  23  ~/src/scss/_base.scss
-|4,39,82,23,1581196641,"~/src/scss/_base.scss"
--'  85  23  ~/src/scss/_base.scss
-|4,39,85,23,1581196641,"~/src/scss/_base.scss"
--'  81  23  ~/src/scss/_base.scss
-|4,39,81,23,1581196592,"~/src/scss/_base.scss"
--'  84  23  ~/src/scss/_base.scss
-|4,39,84,23,1581196592,"~/src/scss/_base.scss"
--'  81  23  ~/src/scss/_base.scss
-|4,39,81,23,1581196592,"~/src/scss/_base.scss"
--'  84  23  ~/src/scss/_base.scss
-|4,39,84,23,1581196592,"~/src/scss/_base.scss"
--'  81  23  ~/src/scss/_base.scss
-|4,39,81,23,1581196592,"~/src/scss/_base.scss"
--'  84  23  ~/src/scss/_base.scss
-|4,39,84,23,1581196592,"~/src/scss/_base.scss"
--'  81  23  ~/src/scss/_base.scss
-|4,39,81,23,1581196592,"~/src/scss/_base.scss"
--'  84  23  ~/src/scss/_base.scss
-|4,39,84,23,1581196592,"~/src/scss/_base.scss"
--'  81  23  ~/src/scss/_base.scss
-|4,39,81,23,1581196592,"~/src/scss/_base.scss"
--'  84  23  ~/src/scss/_base.scss
-|4,39,84,23,1581196592,"~/src/scss/_base.scss"
--'  81  23  ~/src/scss/_base.scss
-|4,39,81,23,1581196592,"~/src/scss/_base.scss"
--'  84  23  ~/src/scss/_base.scss
-|4,39,84,23,1581196592,"~/src/scss/_base.scss"
--'  81  23  ~/src/scss/_base.scss
-|4,39,81,23,1581196592,"~/src/scss/_base.scss"
--'  84  23  ~/src/scss/_base.scss
-|4,39,84,23,1581196592,"~/src/scss/_base.scss"
--'  81  23  ~/src/scss/_base.scss
-|4,39,81,23,1581196592,"~/src/scss/_base.scss"
--'  84  23  ~/src/scss/_base.scss
-|4,39,84,23,1581196592,"~/src/scss/_base.scss"
--'  201  17  ~/src/scss/_base.scss
-|4,39,201,17,1581196447,"~/src/scss/_base.scss"
--'  200  17  ~/src/scss/_base.scss
-|4,39,200,17,1581196447,"~/src/scss/_base.scss"
--'  204  17  ~/src/scss/_base.scss
-|4,39,204,17,1581196447,"~/src/scss/_base.scss"
--'  203  17  ~/src/scss/_base.scss
-|4,39,203,17,1581196447,"~/src/scss/_base.scss"
--'  201  17  ~/src/scss/_base.scss
-|4,39,201,17,1581196447,"~/src/scss/_base.scss"
--'  200  17  ~/src/scss/_base.scss
-|4,39,200,17,1581196447,"~/src/scss/_base.scss"
--'  204  17  ~/src/scss/_base.scss
-|4,39,204,17,1581196447,"~/src/scss/_base.scss"
--'  203  17  ~/src/scss/_base.scss
-|4,39,203,17,1581196447,"~/src/scss/_base.scss"
--'  201  17  ~/src/scss/_base.scss
-|4,39,201,17,1581196447,"~/src/scss/_base.scss"
--'  200  17  ~/src/scss/_base.scss
-|4,39,200,17,1581196447,"~/src/scss/_base.scss"
--'  204  17  ~/src/scss/_base.scss
-|4,39,204,17,1581196447,"~/src/scss/_base.scss"
--'  203  17  ~/src/scss/_base.scss
-|4,39,203,17,1581196447,"~/src/scss/_base.scss"
--'  201  17  ~/src/scss/_base.scss
-|4,39,201,17,1581196447,"~/src/scss/_base.scss"
--'  200  17  ~/src/scss/_base.scss
-|4,39,200,17,1581196447,"~/src/scss/_base.scss"
--'  204  17  ~/src/scss/_base.scss
-|4,39,204,17,1581196447,"~/src/scss/_base.scss"
--'  203  17  ~/src/scss/_base.scss
-|4,39,203,17,1581196447,"~/src/scss/_base.scss"
--'  201  17  ~/src/scss/_base.scss
-|4,39,201,17,1581196447,"~/src/scss/_base.scss"
--'  200  17  ~/src/scss/_base.scss
-|4,39,200,17,1581196447,"~/src/scss/_base.scss"
--'  204  17  ~/src/scss/_base.scss
-|4,39,204,17,1581196447,"~/src/scss/_base.scss"
--'  203  17  ~/src/scss/_base.scss
-|4,39,203,17,1581196447,"~/src/scss/_base.scss"
--'  201  17  ~/src/scss/_base.scss
-|4,39,201,17,1581196447,"~/src/scss/_base.scss"
--'  200  17  ~/src/scss/_base.scss
-|4,39,200,17,1581196447,"~/src/scss/_base.scss"
--'  204  17  ~/src/scss/_base.scss
-|4,39,204,17,1581196447,"~/src/scss/_base.scss"
--'  203  17  ~/src/scss/_base.scss
-|4,39,203,17,1581196447,"~/src/scss/_base.scss"
--'  201  17  ~/src/scss/_base.scss
-|4,39,201,17,1581196447,"~/src/scss/_base.scss"
--'  200  17  ~/src/scss/_base.scss
-|4,39,200,17,1581196447,"~/src/scss/_base.scss"
--'  204  17  ~/src/scss/_base.scss
-|4,39,204,17,1581196447,"~/src/scss/_base.scss"
--'  203  17  ~/src/scss/_base.scss
-|4,39,203,17,1581196447,"~/src/scss/_base.scss"
--'  201  17  ~/src/scss/_base.scss
-|4,39,201,17,1581196447,"~/src/scss/_base.scss"
--'  200  17  ~/src/scss/_base.scss
-|4,39,200,17,1581196447,"~/src/scss/_base.scss"
--'  204  17  ~/src/scss/_base.scss
-|4,39,204,17,1581196447,"~/src/scss/_base.scss"
--'  203  17  ~/src/scss/_base.scss
-|4,39,203,17,1581196447,"~/src/scss/_base.scss"
+-'  103  28  ~/src/js/components/Map.jsx
+|4,39,103,28,1581212937,"~/src/js/components/Map.jsx"
+-'  72  0  ~/src/js/components/Map.jsx
+|4,39,72,0,1581212759,"~/src/js/components/Map.jsx"
+-'  75  41  ~/src/js/components/Information.jsx
+|4,39,75,41,1581212758,"~/src/js/components/Information.jsx"
+-'  75  41  ~/src/js/components/Information.jsx
+|4,39,75,41,1581212758,"~/src/js/components/Information.jsx"
+-'  67  42  ~/src/js/components/Information.jsx
+|4,39,67,42,1581212510,"~/src/js/components/Information.jsx"
+-'  67  42  ~/src/js/components/Information.jsx
+|4,39,67,42,1581212510,"~/src/js/components/Information.jsx"
+-'  72  2  ~/src/js/components/Map.jsx
+|4,39,72,2,1581212509,"~/src/js/components/Map.jsx"
+-'  72  2  ~/src/js/components/Map.jsx
+|4,39,72,2,1581212509,"~/src/js/components/Map.jsx"
+-'  1  25  ~/src/js/components/Map.jsx
+|4,39,1,25,1581212252,"~/src/js/components/Map.jsx"
+-'  1  25  ~/src/js/components/Map.jsx
+|4,39,1,25,1581212252,"~/src/js/components/Map.jsx"
+-'  1  25  ~/src/js/components/Map.jsx
+|4,39,1,25,1581212252,"~/src/js/components/Map.jsx"
+-'  68  14  ~/src/js/components/Information.jsx
+|4,39,68,14,1581212250,"~/src/js/components/Information.jsx"
+-'  68  14  ~/src/js/components/Information.jsx
+|4,39,68,14,1581212250,"~/src/js/components/Information.jsx"
+-'  68  14  ~/src/js/components/Information.jsx
+|4,39,68,14,1581212250,"~/src/js/components/Information.jsx"
+-'  68  14  ~/src/js/components/Information.jsx
+|4,39,68,14,1581212250,"~/src/js/components/Information.jsx"
+-'  68  75  ~/src/js/components/Information.jsx
+|4,39,68,75,1581212130,"~/src/js/components/Information.jsx"
+-'  70  11  ~/src/js/components/Information.jsx
+|4,39,70,11,1581212130,"~/src/js/components/Information.jsx"
+-'  70  11  ~/src/js/components/Information.jsx
+|4,39,70,11,1581212130,"~/src/js/components/Information.jsx"
+-'  68  75  ~/src/js/components/Information.jsx
+|4,39,68,75,1581212130,"~/src/js/components/Information.jsx"
+-'  70  11  ~/src/js/components/Information.jsx
+|4,39,70,11,1581212130,"~/src/js/components/Information.jsx"
+-'  70  11  ~/src/js/components/Information.jsx
+|4,39,70,11,1581212130,"~/src/js/components/Information.jsx"
+-'  70  11  ~/src/js/components/Information.jsx
+|4,39,70,11,1581212105,"~/src/js/components/Information.jsx"
+-'  70  11  ~/src/js/components/Information.jsx
+|4,39,70,11,1581212105,"~/src/js/components/Information.jsx"
+-'  70  11  ~/src/js/components/Information.jsx
+|4,39,70,11,1581212105,"~/src/js/components/Information.jsx"
+-'  70  11  ~/src/js/components/Information.jsx
+|4,39,70,11,1581212105,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212029,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212029,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212029,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212029,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212029,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212029,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212029,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212029,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212029,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212029,"~/src/js/components/Information.jsx"
+-'  1  25  ~/src/js/components/Map.jsx
+|4,39,1,25,1581212027,"~/src/js/components/Map.jsx"
+-'  1  25  ~/src/js/components/Map.jsx
+|4,39,1,25,1581212027,"~/src/js/components/Map.jsx"
+-'  1  25  ~/src/js/components/Map.jsx
+|4,39,1,25,1581212027,"~/src/js/components/Map.jsx"
+-'  1  25  ~/src/js/components/Map.jsx
+|4,39,1,25,1581212027,"~/src/js/components/Map.jsx"
+-'  1  25  ~/src/js/components/Map.jsx
+|4,39,1,25,1581212027,"~/src/js/components/Map.jsx"
+-'  1  25  ~/src/js/components/Map.jsx
+|4,39,1,25,1581212027,"~/src/js/components/Map.jsx"
+-'  1  25  ~/src/js/components/Map.jsx
+|4,39,1,25,1581212027,"~/src/js/components/Map.jsx"
+-'  1  25  ~/src/js/components/Map.jsx
+|4,39,1,25,1581212027,"~/src/js/components/Map.jsx"
+-'  107  61  ~/src/js/components/Map.jsx
+|4,39,107,61,1581212010,"~/src/js/components/Map.jsx"
+-'  108  61  ~/src/js/components/Map.jsx
+|4,39,108,61,1581212010,"~/src/js/components/Map.jsx"
+-'  108  61  ~/src/js/components/Map.jsx
+|4,39,108,61,1581212010,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581212010,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581212010,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581212010,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581212010,"~/src/js/components/Map.jsx"
+-'  108  61  ~/src/js/components/Map.jsx
+|4,39,108,61,1581212010,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581212010,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581212010,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581212010,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581212010,"~/src/js/components/Map.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212006,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212006,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212006,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212006,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212006,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212006,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212006,"~/src/js/components/Information.jsx"
+-'  57  7  ~/src/js/components/Information.jsx
+|4,39,57,7,1581212006,"~/src/js/components/Information.jsx"
+-'  97  24  ~/src/js/components/Information.jsx
+|4,39,97,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  97  24  ~/src/js/components/Information.jsx
+|4,39,97,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  98  24  ~/src/js/components/Information.jsx
+|4,39,98,24,1581211367,"~/src/js/components/Information.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
+-'  109  61  ~/src/js/components/Map.jsx
+|4,39,109,61,1581211363,"~/src/js/components/Map.jsx"
 -'  62  54  ~/src/js/components/Map.jsx
-|4,39,62,54,1581196288,"~/src/js/components/Map.jsx"
+|4,39,62,54,1581211214,"~/src/js/components/Map.jsx"
 -'  62  54  ~/src/js/components/Map.jsx
-|4,39,62,54,1581196288,"~/src/js/components/Map.jsx"
+|4,39,62,54,1581211214,"~/src/js/components/Map.jsx"
 -'  62  54  ~/src/js/components/Map.jsx
-|4,39,62,54,1581196288,"~/src/js/components/Map.jsx"
--'  62  54  ~/src/js/components/Map.jsx
-|4,39,62,54,1581196288,"~/src/js/components/Map.jsx"
+|4,39,62,54,1581211214,"~/src/js/components/Map.jsx"
 
 # History of marks within files (newest to oldest):
 
+> ~/src/js/components/Map.jsx
+	*	1581212783	0
+	"	103	28
+	^	103	29
+	.	104	0
+	+	62	54
+	+	103	29
+	+	72	2
+	+	104	0
+
 > ~/src/js/components/Information.jsx
-	*	1581197771	0
-	"	90	24
-	^	64	25
-	.	64	24
-	+	37	58
-	+	70	28
-	+	86	0
-	+	85	4
-	+	84	8
-	+	76	4
+	*	1581212613	0
+	"	75	41
+	^	75	42
+	.	76	0
+	+	38	58
+	+	77	28
+	+	93	0
+	+	92	4
+	+	91	8
+	+	83	4
+	+	83	0
+	+	80	20
+	+	79	31
+	+	78	21
+	+	79	67
+	+	62	98
+	+	62	97
+	+	79	60
+	+	69	4
+	+	63	0
+	+	79	61
+	+	67	27
+	+	65	24
+	+	77	51
+	+	78	49
 	+	76	0
-	+	73	20
-	+	72	31
-	+	71	21
-	+	72	67
-	+	61	98
-	+	61	97
-	+	72	60
-	+	68	4
-	+	62	0
-	+	72	61
-	+	66	27
-	+	64	24
+	+	73	23
+	+	18	30
+	+	75	64
+	+	67	45
+	+	68	65
+	+	68	72
+	+	18	5
+	+	20	0
+	+	18	23
+	+	75	54
+	+	68	75
+	+	18	23
+	+	67	42
+	+	75	41
+	+	68	8
+	+	69	0
+	+	76	0
 
 > ~/src/scss/_base.scss
 	*	1581197701	0
@@ -346,13 +380,6 @@ $
 	+	75	16
 	+	74	16
 	+	75	12
-
-> ~/src/js/components/Map.jsx
-	*	1581196287	0
-	"	62	54
-	^	62	55
-	.	62	54
-	+	62	54
 
 > ~/dist/script.js
 	*	1581194259	0

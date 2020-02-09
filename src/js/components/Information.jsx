@@ -15,6 +15,7 @@ class Information extends React.Component{
         language: '',
         currencies: '',
         population: '',
+        clickout: false,
     }
 
   }
@@ -67,8 +68,14 @@ class Information extends React.Component{
         document.getElementById("popup").style.display = "none";
      }
 
-      return <aside id="popup">
-        <div className="popup-inner">
+
+	function noClick(e){
+		console.log("NEEEEE");
+		e.stopPropagation();
+		e.naiveEvent.stopImmediatePropagation();
+	}
+      return <aside id="popup" onClick={clickHandler}>
+        <div className="popup-inner" onClick={noClick}>
             <a href="" className="close" onClick={clickHandler}>
                 lolxd
             </a>

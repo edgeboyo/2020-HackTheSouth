@@ -101,7 +101,6 @@ class Map extends React.Component{
                     <button className='button' onClick={this.handleBtnClick} type='submit' value='Submit'>
                       Find country
                     </button>
-                    <button className='button' onClick={this.handleClearBtn}>Clear map</button>
                   </form>
                   <div className='map' onClick={this.handleMapClick}>
                     <ReactSVG

@@ -22645,11 +22645,6 @@ var Map = function (_React$Component) {
             'button',
             { className: 'button', onClick: this.handleBtnClick, type: 'submit', value: 'Submit' },
             'Find country'
-          ),
-          _react2.default.createElement(
-            'button',
-            { className: 'button', onClick: this.handleClearBtn },
-            'Clear map'
           )
         ),
         _react2.default.createElement(
@@ -23599,7 +23594,7 @@ var Information = function (_React$Component) {
       capital: '',
       flag: '',
       id: ''
-    }, _defineProperty(_this$state, 'capital', ''), _defineProperty(_this$state, 'region', ''), _defineProperty(_this$state, 'subregion', ''), _defineProperty(_this$state, 'borders', ''), _defineProperty(_this$state, 'language', ''), _defineProperty(_this$state, 'currencies', ''), _defineProperty(_this$state, 'population', ''), _this$state);
+    }, _defineProperty(_this$state, 'capital', ''), _defineProperty(_this$state, 'region', ''), _defineProperty(_this$state, 'subregion', ''), _defineProperty(_this$state, 'borders', ''), _defineProperty(_this$state, 'language', ''), _defineProperty(_this$state, 'currencies', ''), _defineProperty(_this$state, 'population', ''), _defineProperty(_this$state, 'clickout', false), _this$state);
 
     return _this;
   }
@@ -23625,12 +23620,17 @@ var Information = function (_React$Component) {
         document.getElementById("popup").style.display = "none";
       }
 
+      function noClick(e) {
+        console.log("NEEEEE");
+        e.stopPropagation();
+        e.naiveEvent.stopImmediatePropagation();
+      }
       return _react2.default.createElement(
         'aside',
-        { id: 'popup' },
+        { id: 'popup', onClick: clickHandler },
         _react2.default.createElement(
           'div',
-          { className: 'popup-inner' },
+          { className: 'popup-inner', onClick: noClick },
           _react2.default.createElement(
             'a',
             { href: '', className: 'close', onClick: clickHandler },
