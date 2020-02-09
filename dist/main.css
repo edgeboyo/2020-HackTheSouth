@@ -33,7 +33,9 @@ body {
       text-align: center;
       outline: none;
       color: black;
-      border: none; }
+      border: none;
+      border: 1px solid #fff;
+      border-radius: 300px; }
       .container .form .findCountry:focus {
         box-shadow: 0 0 5px 1px #961c05; }
     .container .form .error::after {
@@ -52,7 +54,18 @@ body {
       border: 1px solid #ff8000;
       margin-top: .5em;
       padding: .5em;
-      outline: none; }
+      outline: none;
+      display: block;
+      margin: auto;
+      margin-top: 10px;
+      border: 1px solid #ff7900;
+      border-radius: 300px;
+      text-transform: uppercase;
+      background: #ff7900;
+      color: #fff;
+      padding: 10px 20px;
+      font-family: 'Open Sans','Helvetica Neue', Arial,sans-serif;
+      font-weight: 700; }
       .container .form .button:hover {
         cursor: pointer;
         background: #ff8000;
@@ -157,10 +170,11 @@ body {
 
 #popup .popup-inner {
   padding: 20px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  background-color: #DDD; }
 
 #popup .popup-inner img {
-  height: 200px; }
+  height: 50px; }
 
 #popup .popup-inner form input[type="email"] {
   display: block;
@@ -194,3 +208,34 @@ body {
 #pobierz-informator:hover {
   color: #fff;
   text-decoration: none; }
+
+.close {
+  display: flex;
+  justify-content: right; }
+
+.grid {
+  display: flex;
+  justify-content: end;
+  grid-template-columns: 5% 20% 10%; }
+
+.grid-l {
+  justify-content: left; }
+
+.grid-r {
+  display: grid;
+  justify-content: right; }
+
+.grid > .grid-i {
+  text-align: center; }
+
+.f-left {
+  float: left; }
+
+.f-right {
+  float: right; }
+
+.clearfix {
+  overflow: auto; }
+
+.popup-inner div {
+  padding-top: 10px; }

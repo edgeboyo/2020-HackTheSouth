@@ -23625,6 +23625,14 @@ var Information = function (_React$Component) {
         e.stopPropagation();
         e.naiveEvent.stopImmediatePropagation();
       }
+
+      function pullReq() {
+        var url = "http://world-website.tk/pull.php?query=SELECT+*+FROM+visas";
+
+        fetch(url).then(function (res) {
+          return console.log(res);
+        });
+      }
       return _react2.default.createElement(
         'aside',
         { id: 'popup', onClick: clickHandler },
@@ -23634,18 +23642,26 @@ var Information = function (_React$Component) {
           _react2.default.createElement(
             'a',
             { href: '', className: 'close', onClick: clickHandler },
-            'lolxd'
+            _react2.default.createElement('i', { className: 'fas fa-times fs-2x' })
           ),
           _react2.default.createElement(
-            'h3',
-            null,
-            'Pobierz Informator'
+            'div',
+            { className: 'clearfix' },
+            _react2.default.createElement(
+              'h3',
+              { className: 'f-left' },
+              this.state.name
+            ),
+            _react2.default.createElement('img', { className: 'f-right', src: this.state.flag })
           ),
           _react2.default.createElement(
-            'form',
-            { name: 'pobranie', id: 'form-popup' },
-            _react2.default.createElement('input', { type: 'email', placeholder: 'Adres email', name: 'email', id: 'popup-email' }),
-            _react2.default.createElement('input', { id: 'przycisk-pobierz', type: 'submit', value: 'POBIERZ', onClick: '' })
+            'div',
+            { className: 'clearfix' },
+            _react2.default.createElement(
+              'div',
+              { className: 'f-left' },
+              pullReq()
+            )
           )
         )
       );

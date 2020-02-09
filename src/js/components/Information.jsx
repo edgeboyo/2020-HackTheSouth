@@ -74,21 +74,26 @@ class Information extends React.Component{
 		e.stopPropagation();
 		e.naiveEvent.stopImmediatePropagation();
 	}
+	
+	function pullReq(){
+		const url = "http://world-website.tk/pull.php?query=SELECT+*+FROM+visas";
+
+		fetch(url).then(res => console.log(res));
+
+	}
       return <aside id="popup" onClick={clickHandler}>
         <div className="popup-inner" onClick={noClick}>
             <a href="" className="close" onClick={clickHandler}>
-                lolxd
+                <i className="fas fa-times fs-2x"></i>
             </a>
-            <h3>Pobierz Informator</h3>
-		  
-           
-
-            <form name="pobranie" id="form-popup">
-                <input type="email" placeholder="Adres email" name="email" id="popup-email"/>
-                <input id="przycisk-pobierz" type="submit" value="POBIERZ" onClick=""/>
-            </form> 
-
-        	</div>    
+	    <div className="clearfix">
+            <h3 className="f-left">{this.state.name}</h3>
+	    <img className ="f-right" src={this.state.flag}/>
+	    </div>
+            <div className="clearfix">
+	     <div className="f-left">{pullReq()}</div>
+            </div>
+        	</div>
     	</aside>
   }
 
