@@ -18,7 +18,7 @@
     "npm-fetch": "0.0.9",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
-    "react-svg": "^2.1.21",
+    "react-svg": "^2.2.18",
     "whatwg-fetch": "^2.0.3"
   },
   "devDependencies": {
