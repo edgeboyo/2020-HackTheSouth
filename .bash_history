@@ -195,3 +195,54 @@ ls
 rm -rf ./*
 ls
 cd ..
+cd ~
+dir
+git init
+git remote add origin hhtps://github.com/2020-HackTheSouth
+git fetch --all
+git remote remove origin
+git remote add origin https://github.com/2020-HackTheSouth
+git fetch --all
+git remote set-url origin https://github.com/edgeboyo/2020-HackTheSouth
+git fetch --all
+git branch --set-upstream-to=origin/master master
+git branch --set-upstream-to=origin/master
+git pull
+git branch --set-upstream-to=origin/master master
+git fetch --all
+git branch --set-upstream-to=origin/master master
+git branch --set-upstream-to=origin/master mater
+git branch --set-upstream-to=origin/master master
+git branch
+git branch -h
+git branch --a;;
+git branch --all
+git pull
+git pull origin master
+dir
+git branch --set-upstream-to=origin/master master
+vim /etc/apache2/sites-available/000-default.conf 
+exit
+cd ~ && pwd
+dir
+vim /etc/apache2/apache2.conf 
+su root
+exit
+cd ~
+dir
+vim pull.php 
+vim src/js/components/Information.jsx 
+npm run build
+npm run install
+npm install
+cd ~
+dir
+npm install
+npm install --save
+npm run build
+npm reinstall
+dir
+rm node_modules/ -rf
+npm install --save
+reboot
+exit
