@@ -65,7 +65,7 @@ class Information extends React.Component{
   }
 
   pullReq = name => {
-                const url = "http://map.edgeboyo.tk/pull.php?query=SELECT+*+FROM+databox+WHERE+`FIELD1`+LIKE+\"" + name + "\"";
+                const url = "https://map.edgeboyo.tk/pull.php?query=SELECT+*+FROM+databox+WHERE+`FIELD1`+LIKE+\"" + name + "\"";
 	  console.log(url);
                 fetch(url).then(res => {return res.text()}).then(txt => {
 			var str = "";
